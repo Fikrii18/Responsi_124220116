@@ -1,5 +1,5 @@
-import 'package:nitendo/models/anime_model.dart';
-import 'package:nitendo/network/base_network.dart';
+import 'package:nitendo/lama/models/anime_model.dart';
+import 'package:nitendo/lama/network/base_network.dart';
 
 abstract class AnimeView {
   void showLoading();

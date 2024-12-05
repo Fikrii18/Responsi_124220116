@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:nitendo/models/boxes.dart';
-import 'package:nitendo/models/todo.dart';
-import 'package:nitendo/views/list.dart';
+import 'package:nitendo/lama/models/boxes.dart';
+import 'package:nitendo/lama/models/todo.dart';
+import 'package:nitendo/lama/views/list.dart';
 
 void main() async {
   await Hive.initFlutter();

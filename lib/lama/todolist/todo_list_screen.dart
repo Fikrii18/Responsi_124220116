@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:nitendo/models/boxes.dart';
-import 'package:nitendo/models/todo.dart';
-import 'package:nitendo/todolist/add_todo_screen.dart';
+import 'package:nitendo/lama/models/boxes.dart';
+import 'package:nitendo/lama/models/todo.dart';
+import 'package:nitendo/lama/todolist/add_todo_screen.dart';
 
 class TodoListScreen extends StatefulWidget {
   final String title;

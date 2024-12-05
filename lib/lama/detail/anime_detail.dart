@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nitendo/network/base_network.dart';
+import 'package:nitendo/lama/network/base_network.dart';
 
 class DetailScreen extends StatefulWidget {
   const DetailScreen({super.key, required this.id, required this.endpoint});

@@ -1,4 +1,6 @@
-import 'package:nitendo/network/base_network.dart';
+
+
+import 'package:nitendo/lama/network/base_network.dart';
 
 abstract class AnimeDetailView {
   void showLoading();

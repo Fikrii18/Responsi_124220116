@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:nitendo/detail/anime_detail.dart';
-import 'package:nitendo/models/anime_model.dart';
-import 'package:nitendo/presenters/anime_presenter.dart';
-
+import 'package:nitendo/lama/detail/anime_detail.dart';
+import 'package:nitendo/lama/models/anime_model.dart';
+import 'package:nitendo/lama/presenters/anime_presenter.dart';
 class AnimeListScreen extends StatefulWidget {
   const AnimeListScreen({super.key});
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:nitendo/models/boxes.dart';
-import 'package:nitendo/models/todo.dart';
+import 'package:nitendo/lama/models/boxes.dart';
+import 'package:nitendo/lama/models/todo.dart';
 
 class AddTodoScreen extends StatefulWidget {
   const AddTodoScreen({super.key});
