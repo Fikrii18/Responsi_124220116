@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
+import 'package:nitendo/home.dart';
 import 'package:nitendo/lama/models/boxes.dart';
 import 'package:nitendo/lama/models/todo.dart';
-import 'package:nitendo/lama/views/list.dart';
 
 void main() async {
   await Hive.initFlutter();
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AnimeListScreen()
+      home: HomeScreen()
     );
   }
 }
